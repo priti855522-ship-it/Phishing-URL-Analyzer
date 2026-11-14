@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Matrix Animation -->
+    <canvas id="matrix"></canvas>
+
+    <header>
+        <h1>PHISHING URL ANALYZER</h1>
+        <p>Cyber Security URL Detection Tool</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Check Your URL Security</h2>
+        <p>Enter a URL below to analyze its risk.</p>
+
+        <input type="text" id="urlInput"
+        placeholder="Enter website URL">
+
+        <button onclick="analyzeURL()">Analyze URL</button>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <p>Phishing URL Analyzer | Cyber Security Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="matrix.js"></script>
+
+</body>
+</html>
